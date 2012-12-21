@@ -17,7 +17,7 @@ public class Alcohol {
 	public String getAlcoholType() {
 		return alcoholType;
 	}
-
+	// returns alcohol
 	public String getAlcoholBrand() {
 		return alcoholBrand;
 	}
