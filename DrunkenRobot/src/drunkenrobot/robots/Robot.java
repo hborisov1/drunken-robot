@@ -17,6 +17,10 @@ public class Robot {
 		this.name = name;
 	}
 
+	public Robot(String name){
+		this.name=name;
+	}
+	
 	public Robot(String name, Alcohol alcohol, String phrase) {
 		this.name = name;
 		this.alcohol = alcohol;

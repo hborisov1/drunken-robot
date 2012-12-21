@@ -6,7 +6,7 @@ import drunkenrobot.robots.Robot;
 
 public class Table {
 
-	private ArrayList<Robot> robots;
+	private ArrayList<Robot> robots = new ArrayList<>();
 	private int index;
 
 	public Table(int index) {
@@ -25,7 +25,11 @@ public class Table {
 		return robots;
 	}
 
-	public void setRobots(ArrayList<Robot> robots) {
+	public void addRobot(Robot robot){
+		robots.add(robot);
+	}
+	
+	public void addRobots(ArrayList<Robot> robots) {
 		this.robots = robots;
 	}
 
