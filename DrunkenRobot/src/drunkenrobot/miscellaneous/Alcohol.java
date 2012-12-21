@@ -17,11 +17,11 @@ public class Alcohol {
 	public String getAlcoholType() {
 		return alcoholType;
 	}
-	// returns alcohol
+	// returns alcohol feature
 	public String getAlcoholBrand() {
 		return alcoholBrand;
 	}
-
+	
 	public String getAlcoholPercentage() {
 		return (double) Math.round(alcoholPercentage * 10) / 10 + "%";
 	}
