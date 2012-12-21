@@ -13,7 +13,7 @@ public class Pub {
 	public Table getTablesByIndex(int index) {
 		return tables.get(index);
 	}
-
+//master change
 	public void addTables(int numberTables) {
 		for (int i = 1; i <= numberTables; i++) {
 			tables.add(new Table(i));
