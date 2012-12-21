@@ -9,12 +9,17 @@ public class MainApp {
 	public static void main(String[] args) {
 
 		Pub pub = new Pub(4);
-		Robot bender = new Robot("Bender");
-		pub.getTablesByIndex(1).addRobot(bender);
+		Robot voltron = new Robot("Voltron");
+		Robot powerRobot = new Robot("PowerRobot");
+		
 		Alcohol bendersAlcohol = new Alcohol("Beer", "Ariana", 5);
-		bender.setAlcohol(bendersAlcohol);
-		bender.setPhrase("Bitcheeeees");
+
+		pub.getTablesByIndex(1).addRobot(voltron);
+		voltron.setAlcohol(bendersAlcohol);
+		voltron.setPhrase("I will pull my light sword and cut your head");
 		pub.getTablesByIndex(1).listen();
+		
+		
 	}
 
 }
